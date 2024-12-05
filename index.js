@@ -1,11 +1,5 @@
-function isPrime(num) {
-    if (num <= 1) return false;
-    for (let i = 2; i < num; i++) {
-        if (num % i === 0) return false; 
-    }
-    return true; 
+function evenOdd(num) {
+    return num % 2 === 0; // Returns true for even, false for odd
 }
 
-
-console.log(isPrime(7)); 
-console.log(isPrime(10)); 
+console.log(evenOdd(7))
